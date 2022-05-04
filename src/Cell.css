@@ -1,9 +1,23 @@
+@media screen and (max-width: 529px) {
+  .Cell {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 530px) {
+  .Cell {
+    height: 100px;
+    width: 100px;
+  }
+}
+
 .Cell {
-  height: 100px;
-  width: 100px;
-  background-color: darkgray;
+  background-color: #263238;
+  transition: background-color 0.3s ease;
+  border-radius: 1px;
 }
 
 .Cell-lit {
-  background-color: white;
+  background-color: #00bcd4;
 }
